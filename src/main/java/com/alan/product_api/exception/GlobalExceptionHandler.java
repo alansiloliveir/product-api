@@ -2,12 +2,12 @@ package com.alan.product_api.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.http.converter.HttpMessageNotReadableException;
+import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import java.time.LocalDateTime;
+import java.time.Instant;
 import java.util.List;
 
 @RestControllerAdvice
@@ -16,8 +16,9 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(ResourceNotFoundException.class)
     public ResponseEntity<ErrorResponse> handleResourceNotFound(
             ResourceNotFoundException exception) {
+
         ErrorResponse response = new ErrorResponse(
-                LocalDateTime.now(),
+                Instant.now(),
                 HttpStatus.NOT_FOUND.value(),
                 "Resource not found",
                 exception.getMessage(),
@@ -31,6 +32,7 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(MethodArgumentNotValidException.class)
     public ResponseEntity<ErrorResponse> handleValidation(
             MethodArgumentNotValidException exception) {
+
         List<FieldErrorResponse> errors = exception
                 .getBindingResult()
                 .getFieldErrors()
@@ -41,7 +43,7 @@ public class GlobalExceptionHandler {
                 .toList();
 
         ErrorResponse response = new ErrorResponse(
-                LocalDateTime.now(),
+                Instant.now(),
                 HttpStatus.BAD_REQUEST.value(),
                 "Validation failed",
                 "Request contains invalid fields",
@@ -55,8 +57,9 @@ public class GlobalExceptionHandler {
     @ExceptionHandler(HttpMessageNotReadableException.class)
     public ResponseEntity<ErrorResponse> handleInvalidJson(
             HttpMessageNotReadableException exception) {
+
         ErrorResponse response = new ErrorResponse(
-                LocalDateTime.now(),
+                Instant.now(),
                 HttpStatus.BAD_REQUEST.value(),
                 "Invalid request",
                 "Request body is invalid",
@@ -65,18 +68,5 @@ public class GlobalExceptionHandler {
         return ResponseEntity
                 .badRequest()
                 .body(response);
-    }
-
-    public record ErrorResponse(
-            LocalDateTime timestamp,
-            int status,
-            String error,
-            String message,
-            List<FieldErrorResponse> errors) {
-    }
-
-    public record FieldErrorResponse(
-            String field,
-            String message) {
     }
 }

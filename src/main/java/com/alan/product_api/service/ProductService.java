@@ -1,17 +1,14 @@
 package com.alan.product_api.service;
 
-import com.alan.product_api.mapper.ProductMapper;
 import com.alan.product_api.model.Product;
 import com.alan.product_api.model.ProductStatus;
 import com.alan.product_api.repository.ProductRepository;
 
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import com.alan.product_api.exception.ResourceNotFoundException;
 
 import java.math.BigDecimal;
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ProductService {

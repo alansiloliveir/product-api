@@ -102,7 +102,7 @@ http://localhost:8080
 |---|---|---|---|
 | `POST` | `/api/products` | Cria um produto | `201 Created` |
 | `GET` | `/api/products` | Lista produtos | `200 OK` |
-| `GET` | `/api/products/{id}` | Busca por ID | `200 OK` / `404 Not Found` |
+| `GET` | `/api/products/{id}` | Busca por ID | `200 OK` / `404 Product not Found` |
 | `GET` | `/api/products/search?name=...` | Busca por nome | `200 OK` |
 | `GET` | `/api/products/count` | Conta produtos | `200 OK` |
 | `PUT` | `/api/products/{id}` | Atualiza um produto | `200 OK` / `400` / `404` |

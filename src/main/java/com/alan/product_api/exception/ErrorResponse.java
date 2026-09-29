@@ -22,7 +22,7 @@ public record ErrorResponse(
 
         @Schema(
                 description = "Descrição do tipo do erro",
-                example = "Not Found"
+                example = "Product not Found"
         )
         String error,
 
