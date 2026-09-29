@@ -1,0 +1,19 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="jyV6Ht-9hOLA6QxcsvXg">
+    <mxGraphModel dx="1664" dy="874" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OR5vzvSKm3pVmnZBGPG_-4" edge="1" parent="1" source="OR5vzvSKm3pVmnZBGPG_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="OR5vzvSKm3pVmnZBGPG_-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="OR5vzvSKm3pVmnZBGPG_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;API consumer&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Cliente/Parceiro&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="280" x="320" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="OR5vzvSKm3pVmnZBGPG_-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Product API&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Gerenciamento de produtos&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="280" x="320" y="550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="yp5U5tkTEXjieHLcTW7i">
+    <mxGraphModel dx="2357" dy="1238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WmJr3YgAi1fvkQdtjofX-5" edge="1" parent="1" source="WmJr3YgAi1fvkQdtjofX-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WmJr3YgAi1fvkQdtjofX-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WmJr3YgAi1fvkQdtjofX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;API Consumer&lt;/font&gt;" vertex="1">
+          <mxGeometry height="130" width="410" x="200" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WmJr3YgAi1fvkQdtjofX-6" edge="1" parent="1" source="WmJr3YgAi1fvkQdtjofX-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="WmJr3YgAi1fvkQdtjofX-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WmJr3YgAi1fvkQdtjofX-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Product API&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Spring Boot&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Monólito modular&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;REST / MVC / Service Layer&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="280" width="410" x="200" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="WmJr3YgAi1fvkQdtjofX-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;PostgreeSQL&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Banco de dados de produto&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="410" x="200" y="920" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
